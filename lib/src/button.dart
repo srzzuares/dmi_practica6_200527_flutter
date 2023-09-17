@@ -63,11 +63,12 @@ class _MybuttonState extends State<MyButton> {
               ),
               ElevatedButton(
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.red),
+                  backgroundColor:
+                      MaterialStateProperty.all(Color.fromARGB(134, 43, 3, 60)),
                 ),
-                child: const Text(
-                  "tocame!!!",
-                  style: TextStyle(color: Color.fromARGB(255, 7, 255, 81)),
+                child: Icon(
+                  Icons.touch_app_outlined,
+                  size: 52.0,
                 ),
                 onPressed: () {
                   onPresion();
