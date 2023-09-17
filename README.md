@@ -1,4 +1,4 @@
-# Aplicacion Stateless Flutter Practica - 6
+# Aplicacion StateFul Flutter Practica - 6
 
 [![Banner-de-Twitch-Nubes-Gamer-Chica-Morado.png](https://i.postimg.cc/15q3LFXF/Banner-de-Twitch-Nubes-Gamer-Chica-Morado.png)](https://postimg.cc/MvzwBvyZ)
 
@@ -22,11 +22,19 @@ Practica 6
 &nbsp;
 | Característica | Información |
 | :------------: | :------------: |
-| Nombre | \*_Practica 5_ App Flutter\* |
-| Descripción |Creamos una aplicacion de tipo stateless en flutter donde se muestra un contenido de tres Cards con el contenido de un texto y un icono dentro , y de fondo de pantalla integramos lo que es un fondo degradado de 5 colores.|
-| Fecha de Carga | 13/09/23 |
+| Nombre | \*_Practica 6_ App Flutter\* |
+| Descripción |Creamos un arreglo de datos y por medio de un boton cambien de texto o imprima en la pantalla secuencialmente. Se creo desde el inicio de un archivo Dart y creamos difererntes archivos de Dart, uno de main para inicializar la aplicacion y el otro es donde estara el contenido de tipo stateful.|
+| Fecha de Carga | 15/09/23 |
 
-# practica5_200527
+| No. | Pruebas |
+| :------------: | :------------: |
+| 1 | ![Prueba 1 de inicio a la aplicacion](https://github.com/srzzuares/dmi_practica6_200527_flutter/blob/main/asset/img/1Flutter.png) |
+| 2 | ![Prueba 2 de Tocar el boton primera vez](https://github.com/srzzuares/dmi_practica6_200527_flutter/blob/main/asset/img/2Flutter.png) |
+| 3 | ![Prueba 3 de Tocar el boton primera segunda](https://github.com/srzzuares/dmi_practica6_200527_flutter/blob/main/asset/img/3Flutter.png) |
+| 4 | ![Prueba 4 de Tocar el boton primera tercera](https://github.com/srzzuares/dmi_practica6_200527_flutter/blob/main/asset/img/4Flutter.png) |
+| 5 | ![Prueba 5 de Tocar el boton cuarta vez](https://github.com/srzzuares/dmi_practica6_200527_flutter/blob/main/asset/img/5Flutter.png) |
+
+# practica6_200527
 
 ## Instalación
 
