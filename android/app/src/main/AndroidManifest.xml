@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="dmi_practica6_200527_flutter"
+        android:label="BottonArray"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

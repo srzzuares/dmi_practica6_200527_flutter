@@ -9,44 +9,59 @@ class MyButton extends StatefulWidget {
 }
 
 class _MybuttonState extends State<MyButton> {
-  String flu = "hola presiosoooo";
+  String flu = "Hola,\n Soy Crystian";
   int index = 0;
   List<String> collections = [
-    'YAAAAAA',
-    'MAASss',
-    'Rapidoooo',
+    'Estoy',
+    'Programando',
+    'en Flutter',
     'Genial',
-    'Me corrrooooo '
+    'NO¿?'
   ];
   void onPresion() {
     setState(() {
       flu = collections[index];
-      index = index < 2 ? index + 1 : 0;
+      index = index < 4 ? index + 1 : 0;
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: const Text("Stateful Widget - 200527"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Color.fromARGB(69, 28, 0, 64),
         centerTitle: true,
       ),
       body: Container(
+        padding: const EdgeInsets.only(top: 90),
+        decoration: const BoxDecoration(
+            gradient: LinearGradient(colors: [
+          Color(0xFF1C0040),
+          Color(0xFF372082),
+          Color(0xFF8748C2),
+          Color(0xFF6D43AA),
+          Color(0xFF220230),
+        ], stops: [
+          0.2,
+          0.4,
+          0.6,
+          0.7,
+          1
+        ], begin: Alignment.topRight, end: Alignment.bottomRight)),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
                 flu,
-                style: const TextStyle(fontSize: 45),
+                style: const TextStyle(
+                  fontFamily: 'radI',
+                  fontSize: 45,
+                ),
               ),
               ElevatedButton(
-                /* style: ButtonStyle(
-                  foregroundColor: MaterialStateProperty.all(
-                      Color.fromARGB(255, 140, 141, 140)),
-                ), */
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(Colors.red),
                 ),
